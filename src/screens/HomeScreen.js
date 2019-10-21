@@ -5,7 +5,7 @@ const HomeScreen = props => {
   return(
     <View>
       <Text>FUCK RN    </Text>
-      <Button title="IMAGE SCREEN" onPress={()=>(props.navigation.navigate("Image"))} />
+      <Button title="Travel" onPress={()=>(props.navigation.navigate("Travel"))} />
     </View>
   );
 };
